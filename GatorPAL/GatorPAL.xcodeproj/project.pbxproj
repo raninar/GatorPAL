@@ -15,6 +15,7 @@
 		C417CDE3222E3E9F0014FDA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C417CDE1222E3E9F0014FDA6 /* LaunchScreen.storyboard */; };
 		C417CDEE222E3EA00014FDA6 /* GatorPALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417CDED222E3EA00014FDA6 /* GatorPALTests.swift */; };
 		C417CDF9222E3EA00014FDA6 /* GatorPALUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417CDF8222E3EA00014FDA6 /* GatorPALUITests.swift */; };
+		C417CE09222F7A710014FDA6 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417CE08222F7A710014FDA6 /* MainScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C417CDF4222E3EA00014FDA6 /* GatorPALUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GatorPALUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C417CDF8222E3EA00014FDA6 /* GatorPALUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatorPALUITests.swift; sourceTree = "<group>"; };
 		C417CDFA222E3EA00014FDA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C417CE08222F7A710014FDA6 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				C417CDE1222E3E9F0014FDA6 /* LaunchScreen.storyboard */,
 				C417CDE4222E3E9F0014FDA6 /* Info.plist */,
 				C417CDDC222E3E980014FDA6 /* GatorPAL.xcdatamodeld */,
+				C417CE08222F7A710014FDA6 /* MainScreenViewController.swift */,
 			);
 			path = GatorPAL;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C417CDDE222E3E980014FDA6 /* GatorPAL.xcdatamodeld in Sources */,
+				C417CE09222F7A710014FDA6 /* MainScreenViewController.swift in Sources */,
 				C417CDD8222E3E980014FDA6 /* ViewController.swift in Sources */,
 				C417CDD6222E3E980014FDA6 /* AppDelegate.swift in Sources */,
 			);
