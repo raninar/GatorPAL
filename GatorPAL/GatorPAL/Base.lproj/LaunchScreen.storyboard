@@ -19,16 +19,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DTElogo" translatesAutoresizingMaskIntoConstraints="NO" id="cmD-V5-cKB">
-                                <rect key="frame" x="266" y="974" width="378" height="126"/>
+                                <rect key="frame" x="228" y="605" width="378" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GCP_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="BlB-w9-kG8">
+                                <rect key="frame" x="249" y="899" width="337" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UF-Health-email-signature-logo" translatesAutoresizingMaskIntoConstraints="NO" id="w4i-cA-O6T">
-                                <rect key="frame" x="169" y="342" width="534" height="270"/>
+                                <rect key="frame" x="117" y="292" width="667" height="292"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.21068475480000001" green="0.60255655289999999" blue="0.8191588407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.2969829197615852" green="0.60886351274981632" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -39,6 +43,7 @@
     </scenes>
     <resources>
         <image name="DTElogo" width="4115" height="1378"/>
+        <image name="GCP_Logo" width="1502" height="928"/>
         <image name="UF-Health-email-signature-logo" width="970" height="397"/>
     </resources>
 </document>
